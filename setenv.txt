@@ -1,0 +1,8 @@
+Telling you how to setup the environment:
+
+npm install cheerio
+npm install commander
+npm install restler
+
+usage of grader.js : 
+node grader.js -c checks.json -f index.html
