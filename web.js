@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
   response.send(str);
 });
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
